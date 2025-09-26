@@ -1,0 +1,83 @@
+/* ==============================
+   A Legend's Soccer Tee - Style
+   ============================== */
+ 
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+ 
+/* Titles */
+h1, h2, h3 {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+ 
+/* Navigation Bar */
+nav {
+  background: black;
+  padding: 15px;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+ 
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+ 
+nav a:hover {
+  background: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+ 
+/* Section */
+section {
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+ 
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border: 3px solid white;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+ 
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px white;
+}
+ 
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid white;
+  background: black;
+  font-size: 14px;
+  margin-top: 20px;
+}
